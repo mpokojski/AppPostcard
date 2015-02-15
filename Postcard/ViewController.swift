@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
-        mailButton.setTitle("DUPA DDD", forState: UIControlState.Normal)
+        mailButton.setTitle("Mail Send", forState: UIControlState.Normal)
     }
 
 }
